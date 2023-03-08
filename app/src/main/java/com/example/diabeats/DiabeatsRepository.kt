@@ -1,6 +1,5 @@
 package com.example.diabeats
 
-import com.example.diabeats.DiabeatsEntity
 import kotlinx.coroutines.flow.Flow
 
 interface DiabeatsRepository {
