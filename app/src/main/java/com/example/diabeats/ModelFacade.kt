@@ -128,7 +128,7 @@ class ModelFacade private constructor(context: Context) {
 	}
 	    
     suspend fun classifyDiabeats(diabeats: Diabeats) : String {
-        var result = ""
+        var result : String
 	    lateinit var tflite : Interpreter
 	    lateinit var tflitemodel : ByteBuffer
 	
