@@ -160,7 +160,7 @@ class ModelFacade private constructor(context: Context) {
 	            output[i] = outputVal.float
 	        }
 	        
-	     result = getSortedResult(output, labelsList).get(0).toString()
+	     result = getSortedResult(output, labelsList)[0].toString()
 	        
 	        diabeats.outcome = result
 	        persistDiabeats(diabeats)
